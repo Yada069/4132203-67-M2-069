@@ -16,7 +16,7 @@ console.log(fruit);
 //array methods
 fruit.push("Mango");
 fruit.shift();
-console.timeLog(fruit);
+console.log(fruit);
 
 arr.map((item) => {
     console.log(item);
