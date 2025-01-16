@@ -26,15 +26,17 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script>
-    function delRow(id){
-        $.aJax({
-        url: "http://localhost:8080/php/blog.php",
-        type: "DELETE"
-        data: { id:  id},
-        success: function(response){
-          console.log(response);
-        });
-    }
+  function delRow(id) {
+    $.ajax({
+      url: "http://localhost:8080/php/blog.php",
+      type: "DELETE",
+      data: { id: id },
+      success: function (response) {
+        console.log(response);
+      },
+    });
+  }
+
   $(document).ready(function () {
     let jsonUrl = "http://localhost:8080/php/blog.php";
 
@@ -58,16 +60,13 @@
 
         $("#blog tbody").append(tableRow);
       });
-
     });
 
-    $.aJaxStop(function (){
-    $(".btn-info").click(function(){
-      let id = $(this).data('id');
-      alert(id);
+    $(document).ajaxStop(function () {
+      $(".btn-info").click(function () {
+        let id = $(this).data("id");
+        alert(id);
+      });
     });
-
-    });
-
   }); //jQuery handler
 </script>
