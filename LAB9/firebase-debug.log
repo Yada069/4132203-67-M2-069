@@ -1,0 +1,51 @@
+[debug] [2025-02-13T07:50:59.953Z] ----------------------------------------------------------------------
+[debug] [2025-02-13T07:50:59.958Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\IT-Student\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2025-02-13T07:50:59.959Z] CLI Version:   13.31.0
+[debug] [2025-02-13T07:50:59.959Z] Platform:      win32
+[debug] [2025-02-13T07:50:59.959Z] Node Version:  v22.14.0
+[debug] [2025-02-13T07:50:59.960Z] Time:          Thu Feb 13 2025 14:50:59 GMT+0700 (เวลาอินโดจีน)
+[debug] [2025-02-13T07:50:59.960Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-02-13T07:51:00.659Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-02-13T07:51:00.661Z] > authorizing via signed-in user (yada17207@gmail.com)
+[debug] [2025-02-13T07:51:00.661Z] [iam] checking project yada069 for permissions ["firebase.projects.get"]
+[debug] [2025-02-13T07:51:00.663Z] Checked if tokens are valid: true, expires at: 1739435559882
+[debug] [2025-02-13T07:51:00.663Z] Checked if tokens are valid: true, expires at: 1739435559882
+[debug] [2025-02-13T07:51:00.664Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/yada069:testIamPermissions [none]
+[debug] [2025-02-13T07:51:00.665Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/yada069:testIamPermissions x-goog-quota-user=projects/yada069
+[debug] [2025-02-13T07:51:00.665Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/yada069:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-02-13T07:51:01.789Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/yada069:testIamPermissions 200
+[debug] [2025-02-13T07:51:01.790Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/yada069:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-02-13T07:51:01.790Z] Checked if tokens are valid: true, expires at: 1739435559882
+[debug] [2025-02-13T07:51:01.790Z] Checked if tokens are valid: true, expires at: 1739435559882
+[debug] [2025-02-13T07:51:01.791Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/yada069 [none]
+[debug] [2025-02-13T07:51:02.068Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/yada069 200
+[debug] [2025-02-13T07:51:02.068Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/yada069 {"projectNumber":"516837959342","projectId":"yada069","lifecycleState":"ACTIVE","name":"Yada069","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2025-02-13T06:25:28.629362Z"}
+[info] 
+[info] === Serving from 'D:\Desktop\4132203-67-M2-069\LAB9'...
+[info] 
+[debug] [2025-02-13T07:51:02.073Z] Checked if tokens are valid: true, expires at: 1739435559882
+[debug] [2025-02-13T07:51:02.073Z] Checked if tokens are valid: true, expires at: 1739435559882
+[debug] [2025-02-13T07:51:02.073Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/yada069/sites 
+[debug] [2025-02-13T07:51:02.827Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/yada069/sites 200
+[debug] [2025-02-13T07:51:02.827Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/yada069/sites {"sites":[{"name":"projects/yada069/sites/yada069","defaultUrl":"https://yada069.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2025-02-13T07:51:02.827Z] Checked if tokens are valid: true, expires at: 1739435559882
+[debug] [2025-02-13T07:51:02.827Z] Checked if tokens are valid: true, expires at: 1739435559882
+[debug] [2025-02-13T07:51:02.828Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/yada069/webApps/-/config [none]
+[debug] [2025-02-13T07:51:04.394Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/yada069/webApps/-/config 200
+[debug] [2025-02-13T07:51:04.395Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/yada069/webApps/-/config {"projectId":"yada069","appId":"1:516837959342:web:87a833acafa1f57e1caf3f","databaseURL":"https://yada069-default-rtdb.asia-southeast1.firebasedatabase.app","storageBucket":"yada069.firebasestorage.app","apiKey":"AIzaSyC48JPYl_c-IVzT7dfRlqVmmTG0zRjjD5I","authDomain":"yada069.firebaseapp.com","messagingSenderId":"516837959342","measurementId":"G-LV2WMZB487"}
+[debug] [2025-02-13T07:51:04.400Z] Checked if tokens are valid: true, expires at: 1739435559882
+[debug] [2025-02-13T07:51:04.400Z] Checked if tokens are valid: true, expires at: 1739435559882
+[debug] [2025-02-13T07:51:04.401Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/yada069 [none]
+[debug] [2025-02-13T07:51:04.739Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/yada069 200
+[debug] [2025-02-13T07:51:04.739Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/yada069 {"projectId":"yada069","projectNumber":"516837959342","displayName":"Yada069","name":"projects/yada069","resources":{"hostingSite":"yada069","realtimeDatabaseInstance":"yada069-default-rtdb"},"state":"ACTIVE","etag":"1_a2a836dc-49ca-4b05-9061-d4e0b35903d0"}
+[info] i  hosting[yada069]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[yada069]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [13/Feb/2025:07:51:49 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [13/Feb/2025:07:51:49 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [13/Feb/2025:07:51:49 +0000] "GET /firebase.config.js HTTP/1.1" 200 702 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [13/Feb/2025:07:51:49 +0000] \"GET /firebase.config.js HTTP/1.1\" 200 702 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [13/Feb/2025:07:51:50 +0000] "GET /favicon.ico HTTP/1.1" 404 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [13/Feb/2025:07:51:50 +0000] \"GET /favicon.ico HTTP/1.1\" 404 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [13/Feb/2025:07:51:55 +0000] "GET /firebase-messaging-sw.js HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [13/Feb/2025:07:51:55 +0000] \"GET /firebase-messaging-sw.js HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [13/Feb/2025:07:51:55 +0000] "GET /firebase-messaging-sw.js HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [13/Feb/2025:07:51:55 +0000] \"GET /firebase-messaging-sw.js HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [13/Feb/2025:08:23:48 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [13/Feb/2025:08:23:48 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [13/Feb/2025:08:25:30 +0000] "GET /firebase.config.js HTTP/1.1" 200 702 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [13/Feb/2025:08:25:30 +0000] \"GET /firebase.config.js HTTP/1.1\" 200 702 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [13/Feb/2025:08:25:30 +0000] "GET /firebase-messaging-sw.js HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [13/Feb/2025:08:25:30 +0000] \"GET /firebase-messaging-sw.js HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\""}}
